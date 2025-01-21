@@ -1,0 +1,15 @@
+[Unit]
+Description=LudHome MQTT Saver daemon
+After=network.target
+
+[Service]
+Type=exec
+User=ludhome
+Group=ludhome
+WorkingDirectory=/mnt/data/ludhome
+ExecStart=/mnt/data/ludhome/run_ludhome_mqtt_saver.sh
+ExecStop=/bin/kill $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+
