@@ -2,14 +2,14 @@
 
 cd /mnt/data/ludhome
 
-chmod +x *.sh
-chown -R ludhome:ludhome .
+sudo chmod +x src/service/*.sh
+sudo chown -R ludhome:ludhome .
 
-ln -s src/service/ludhome_mqtt_saver.service /etc/systemd/system/ludhome_mqtt_saver.service
+sudo ln -s /mnt/data/ludhome/src/service/ludhome_mqtt_saver.service /etc/systemd/system/ludhome_mqtt_saver.service
 
-systemctl daemon-reload
+sudo systemctl daemon-reload
 
-systemctl enable ludhome_mqtt_saver
-systemctl start ludhome_mqtt_saver
+sudo systemctl enable ludhome_mqtt_saver
+sudo systemctl start ludhome_mqtt_saver
 systemctl status ludhome_mqtt_saver
 
