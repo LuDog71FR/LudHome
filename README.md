@@ -6,7 +6,7 @@
 
 [![Documentation](https://docs.rs/ludhome/badge.svg)][documentation]
 [![Crates.io](https://img.shields.io/crates/v/ludhome.svg)](https://crates.io/crates/ludhome)
-[![License](https://img.shields.io/crates/l/ludhome.svg)](https://github.com/lLuDog71FR/LudHome/blob/master/LICENSE)
+[![License](https://img.shields.io/crates/l/ludhome.svg)](https://github.com/LuDog71FR/LudHome/blob/master/LICENSE)
 [![Downloads](https://img.shields.io/crates/d/ludhome.svg)](https://crates.io/crates/ludhome)
 [![Test Status](https://img.shields.io/github/actions/workflow/status/ludhome/test.yml?branch=master&event=push&label=test)](https://github.com/ludhome/actions)
 
