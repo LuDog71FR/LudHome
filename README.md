@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="images/Logo.png" width="400px" />
-
-# LudHome
+<img src="images/Logo_With_Title.png" width="400px" />
 
 [![Documentation](https://docs.rs/ludhome/badge.svg)][documentation]
 [![Crates.io](https://img.shields.io/crates/v/ludhome.svg)](https://crates.io/crates/ludhome)
