@@ -56,8 +56,8 @@ async fn read_messages(event_loop: &mut EventLoop, pool: Pool<Postgres>) -> Resu
                 log::trace!("Event = {notif:?}");
 
                 let message = match notif {
-                Event::Incoming(Incoming::Publish(message)) => message,
-                    _ => continue,
+                  Event::Incoming(Incoming::Publish(message)) => message,
+                      _ => continue,
                 };
 
                 let topic = &message.topic;
@@ -80,7 +80,6 @@ async fn parse_message(payload: String, topic: String, pool: &Pool<Postgres>) ->
     // topic: devices/<device_mqtt_id>/sensors/<sensor_name>/<data_name>
     // or topic: devices/<device_mqtt_id>/sensors/<sensor_name>/<category>/<data_name>
     // Example: Received message: 11 on topic: devices/13640837/sensors/temperature/value
-
     log::trace!("Received message: {} on topic: {}", payload, topic);
 
     match Topic::from_str(&topic) {

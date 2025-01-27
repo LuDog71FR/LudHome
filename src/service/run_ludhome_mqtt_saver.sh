@@ -7,5 +7,5 @@ cd /mnt/data/ludhome
 export DATABASE_URL='postgres://ludhome:sdiaea@localhost/ludhome'
 export RUST_LOG='info'
 
-./ludhome_mqtt_saver_service
+target/release/ludhome_mqtt_saver
 

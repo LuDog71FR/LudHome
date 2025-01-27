@@ -1,6 +1,6 @@
 # Development
 
-## prerequisites
+## Prerequisites
 
 - Rust
 - Cargo
@@ -11,34 +11,6 @@
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-## Install OpenSSL
-
-For Debian/Ubuntu:
-
-```bash
-sudo apt-get install libssl-dev
-```
-
-For Arch Linux:
-
-```bash
-sudo pacman -S openssl
-```
-
-## Install Mosquitto
-
-For Debian/Ubuntu:
-
-```bash
-sudo apt-get install mosquitto mosquitto-clients
-```
-
-For Arch Linux:
-
-```bash
-sudo pacman -S mosquitto
 ```
 
 ## SQLx
