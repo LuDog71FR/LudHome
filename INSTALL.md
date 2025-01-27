@@ -35,3 +35,17 @@ Create the user `ludhome` on the server:
 sudo useradd ludhome
 ```
 
+Edit the file `src/service/env.conf` to set the database connection string.
+
+Example:
+
+```text
+DATABASE_URL=postgres://ludhome:password@localhost/ludhome
+```
+
+Then run the following command to install the service:
+
+```bash
+src/service/install_services.sh 
+```
+
