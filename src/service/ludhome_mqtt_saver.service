@@ -7,6 +7,7 @@ Type=exec
 User=ludhome
 Group=ludhome
 WorkingDirectory=/mnt/data/ludhome
+EnvironmentFile=/mnt/data/ludhome/src/service/env.conf
 ExecStart=/mnt/data/ludhome/src/service/run_ludhome_mqtt_saver.sh
 ExecStop=/bin/kill -TERM $MAINPID
 
