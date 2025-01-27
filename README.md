@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="images/logo.png" width="400px" />
+<img src="images/Logo.png" width="400px" />
 
 # LudHome
 
 [![Documentation](https://docs.rs/ludhome/badge.svg)][documentation]
 [![Crates.io](https://img.shields.io/crates/v/ludhome.svg)](https://crates.io/crates/ludhome)
-[![License](https://img.shields.io/crates/l/ludhome.svg)](https://github.com/ludhome/master/LICENSE)
+[![License](https://img.shields.io/crates/l/ludhome.svg)](https://github.com/ludhome/blob/master/LICENSE)
 [![Downloads](https://img.shields.io/crates/d/ludhome.svg)](https://crates.io/crates/ludhome)
 [![Test Status](https://img.shields.io/github/actions/workflow/status/ludhome/test.yml?branch=master&event=push&label=test)](https://github.com/ludhome/actions)
 
